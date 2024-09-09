@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and ( max-width: 1280px ) {
+    .container{width: 100vw;}
+.wrapper .headertop { width:100vw;background-color: var(--color-green);
+}
+}
+@media only screen and ( max-width: 1024px ) {
+.wrapper .headertop { width:100vw; background-color: var(--color-green);}
+
+}
+@media only screen and ( max-width: 980px ) {
+.wrapper .headertop { width:100vw;background-color: var(--color-green);}
+}
+@media only screen and ( max-width: 800px ) {
+.wrapper .headertop { width:100vw; background-color: var(--color-green);}
+}
+@media only screen and ( max-width: 768px ) {
+.wrapper .headertop {  width:100vw; background-color: var(--color-green);}
+}
+@media only screen and ( max-width: 736px ) {
+.wrapper .headertop { width:100vw;  background-color: var(--color-green);}}
+@media only screen and ( max-width: 667px ) {
+.wrapper .headertop { width:100vw;  background-color: var(--color-green);}
+.wrapper .abtsct .abtdata .abt-img {float: none;}
+.wrapper .abtsct .abtdata .abt-img::before{ content: ' '; position: absolute; background-color: #3e5f008f; top: 579px; left: 37px; right: 98px; bottom: 0;}
+/* .wrapper .abtsct .abtdata .abt-img::after { content: ' ';  position: absolute;background: url(../images/youtubelogo.png) no-repeat top center; top: 42%;left: 0; right: 0; bottom: 0;} */
+
+.wrapper .abtsct .abtdatasamediv .abt-img {  width: 571px;  position: relative;  padding: 21px 37px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::before { content: ' '; position: absolute; background-color: #3e5f008f; top: 21px; left: 37px; right: 39px; bottom: 21px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::after { content: ' ';  position: absolute;background: url(../images/youtubelogo.png) no-repeat top center; top: 42%;left: 0; right: 0; bottom: 0;}
+.wrapper .abtsct .abtdatasamediv .abt-content {float: none;}
+
+.wrapper .servicesct .servicedata .servicecontain {width: 629px; padding: 0px;}
+.wrapper .servicesct .servicedata .servicecontain h3 {padding-left: 40px;}
+.wrapper .servicesct .servicedata .servicecontain h3 span{padding-right: 40px;}
+.wrapper .servicesct .servicedata .servicecontain p {font-size: 18px; padding: 30px 40px 40px;}
+
+.wrapper .servicesct .servicedata{padding: 50px 0;}
+.wrapper .servicesct .servicedata .serviceimg {float: none; padding-left: 40px;}
+.headingdiv {padding-top: 50px;}
+.wrapper .pricingsection .pricingdiv ul li {display: block;}
+.wrapper .pricingsection .pricingdiv ul li + li{margin-left: 0px;}
+.wrapper .blogsection .blogdiv ul {padding: 50px 0;}
+.wrapper .blogsection .blogdiv ul li{display: block;}
+.wrapper .blogsection .blogdiv ul li + li {margin: 40px 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img1{float: none;margin-left: 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img2{float: none;}
+
+.ordernow button {margin: 34px 40px;}
+}
+@media only screen and ( max-width: 640px ) {
+.wrapper .headertop { width:100vw; background-color: var(--color-green);}
+.wrapper .abtsct .abtdatasamediv .abt-img {  width: 571px;  position: relative;  padding: 21px 37px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::before { content: ' '; position: absolute; background-color: #3e5f008f; top: 21px; left: 37px; right: 39px; bottom: 21px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::after { content: ' ';  position: absolute;background: url(../images/youtubelogo.png) no-repeat top center; top: 42%;left: 0; right: 0; bottom: 0;}
+.wrapper .abtsct .abtdatasamediv .abt-content {float: none;}
+.wrapper .servicesct .servicedata .servicecontain h3 {padding-left: 40px;}
+.wrapper .servicesct .servicedata .servicecontain h3 span{padding-right: 40px;}
+.wrapper .servicesct .servicedata .servicecontain p {font-size: 18px; padding: 30px 40px 40px;}
+
+
+.wrapper .servicesct .servicedata{padding: 50px 0;}
+.wrapper .servicesct .servicedata .serviceimg {float: none; padding-left: 40px;}
+.headingdiv {padding-top: 50px;}
+.wrapper .pricingsection .pricingdiv ul li {display: block;}
+.wrapper .pricingsection .pricingdiv ul li + li{margin-left: 0px;}
+.wrapper .blogsection .blogdiv ul {padding: 50px 0;}
+.wrapper .blogsection .blogdiv ul li{display: block;}
+.wrapper .blogsection .blogdiv ul li + li {margin: 40px 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img1{float: none;margin-left: 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img2{float: none;}
+.ordernow button {margin: 34px 40px;}
+
+.wrapper .abtsct .abtdata .abt-content { float: none; padding-top: 50px;}
+.wrapper .abtsct .abtdata .abt-content h2 {font-size: 47px;}
+.wrapper .abtsct .abtdata .abt-img { float: none; padding: 50px 40px;}
+.wrapper .abtsct .abtdata .abt-img::before { content: ' ';position: absolute; background-color: #3e5f008f;top: 50px; left: 40px; right: 40px; bottom: 50px;}
+}
+@media only screen and ( max-width: 600px ) {
+.wrapper .headertop {width:100vw;  background-color: var(--color-green);
+}
+.wrapper .abtsct .abtdatasamediv .abt-img {  width: 571px;  position: relative;  padding: 21px 37px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::before { content: ' '; position: absolute; background-color: #3e5f008f; top: 21px; left: 37px; right: 39px; bottom: 21px;}
+.wrapper .abtsct .abtdatasamediv .abt-img::after { content: ' ';  position: absolute;background: url(../images/youtubelogo.png) no-repeat top center; top: 42%;left: 0; right: 0; bottom: 0;}
+.wrapper .abtsct .abtdatasamediv .abt-content {float: none;}
+
+.wrapper .servicesct .servicedata .servicecontain h3 {padding-left: 40px;}
+.wrapper .servicesct .servicedata .servicecontain h3 span{padding-right: 40px;}
+.wrapper .servicesct .servicedata .servicecontain p {font-size: 18px; padding: 30px 40px 40px;}
+
+
+.wrapper .servicesct .servicedata{padding: 50px 0;}
+.wrapper .servicesct .servicedata .serviceimg {float: none; padding-left: 40px;}
+.headingdiv {padding-top: 50px;}
+.wrapper .pricingsection .pricingdiv ul li {display: block;}
+.wrapper .pricingsection .pricingdiv ul li + li{margin-left: 0px;}
+.wrapper .blogsection .blogdiv ul {padding: 50px 0;}
+.wrapper .blogsection .blogdiv ul li{display: block;}
+.wrapper .blogsection .blogdiv ul li + li {margin: 40px 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img1{float: none;margin-left: 40px;}
+.wrapper .blogsection .blogdiv ul li .blog-img2{float: none;}
+.ordernow button {margin: 34px 40px;}
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and ( max-width: 568px ) {
+.wrapper .headertop {width:100vw;background-color: var(--color-green);}
+}
+@media only screen and ( max-width: 480px ) {
+.wrapper .headertop { width:100vw;background-color: var(--color-green);}}
+@media only screen and ( max-width: 414px ) {
+.wrapper .headertop { width:100vw; background-color: var(--color-green);}}
+@media only screen and ( max-width: 384px ) {
+.wrapper .headertop {width:100vw; background-color: var(--color-green);}}
+@media only screen and ( max-width: 375px ) {
+.wrapper .headertop { width:100vw;background-color: var(--color-green);}}
+@media only screen and ( max-width: 360px ) {
+.wrapper .headertop { width:100vw; background-color: var(--color-green);}}
+@media only screen and ( max-width: 320px ) {
+.wrapper .headertop {  width:100vw; background-color: var(--color-green);}
+}
